@@ -1,0 +1,14 @@
+
+.sidebar {
+    /* inside the container give it a weight of 20% */
+    flex: 0.2; 
+}
+
+/* styles the border */
+.sidebar > hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

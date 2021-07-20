@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+    justify-content: space-between;
+    padding: 20px;
+    /* sticky allows the navbar to stick to the top */
+    position: sticky;
+    top: 0;
+    /* this z-index of 100 to ensure the navbar is on top */
+    z-index: 100;
+    /* adding a background color will hide the background when nav is on top */
+    background-color: white;
+}
+
+.header__logo {
+    height: 20px;
+    object-fit: fit;
+    margin-left: 20px;
+}
+
+.header__menu {
+    justify-content: space-around;
+    /* width: 20%; */
+}
+
+.header__input {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid lightgray;
+}
+
+.header__input > input {
+    /* lets items to take up as much space in it's container */
+    flex: 1;
+    border: none;
+}
+
+.header_inputButton {
+    width: 50px !important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgray;
+    color: gray;
+}
+
+.header__icons {
+    display: flex;
+    align-items: center;
+}
+.header__icon {
+    margin-right: 8px;
+}
+
+
+
